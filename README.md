@@ -78,11 +78,11 @@ http://localhost:8080
 
 ## 🌐 5. Virtual Host Setup (Optional)
 
-To use a custom domain like `http://ci4blog.local`:
+To use a custom domain like `http://ci4blogproject.local`:
 
 ### a. Edit Apache Config
 
-Edit: `F:/xampp/apache/conf/extra/httpd-vhosts.conf`
+Edit: `C:/xampp/apache/conf/extra/httpd-vhosts.conf`
 
 ```apache
 <VirtualHost *:80>
@@ -110,7 +110,7 @@ Add:
 Then access:
 
 ```
-http://ci4blog.local
+http://ci4blogproject.local
 ```
 
 ---
